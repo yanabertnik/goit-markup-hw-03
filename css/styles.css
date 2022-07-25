@@ -361,7 +361,7 @@ img {
 
 .footer {
   background-color: var(--accent-background-color);
-  padding: 60px 15px;
+  padding: 60px 0;
 }
 
 .footer-link {
@@ -389,6 +389,10 @@ img {
   margin-bottom: 9px;
 }
 
+.footer-item {
+  margin-bottom: 9px;
+}
+
 .footer-contact {
   font-style: normal;
   font-weight: 400;
@@ -402,8 +406,4 @@ img {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
-}
-
-.footer-mail {
-  margin-bottom: 6px;
 }
